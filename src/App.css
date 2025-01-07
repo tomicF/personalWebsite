@@ -48,21 +48,21 @@ body {
   flex: 1;
   position: absolute;
   color: white;
-  font-size: 25px;
+  font-size: 50px;
   z-index: 100;
   text-align: left;
-  top: 10px;
-  left: 75px;
+  top: 40px;
+  left: 135px;
   font-weight: bold;
 }
 
 .myName {
   flex: 1;
   position: absolute;
-  top: 45px;
-  left: 75px;
+  top: 105px;
+  left: 135px;
   color: white;
-  font-size: 30px;
+  font-size: 55px;
   z-index: 100;
   text-align: left;
   font-weight: bold;
@@ -71,7 +71,64 @@ body {
 .mydescription {
   position: absolute;
   text-align: left;
-  left: 75px;
-  top: 120px;
-  width: 250px;
+  font-size: 25px;
+  left: 135px;
+  top: 250px;
+  width: 450px;
+}
+
+.balkanDescription {
+  position: absolute;
+  text-align: left;
+  font-size: 25px;
+  bottom: -320px;
+  right: 20px;
+
+  width: 850px;
+}
+
+.gdevDescription {
+  position: absolute;
+  text-align: left;
+  font-size: 25px;
+  bottom: -820px;
+  right: 20px;
+
+  width: 850px;
+}
+
+.toDoDescription {
+  position: absolute;
+  text-align: left;
+  font-size: 25px;
+  bottom: -1350px;
+  right: 20px;
+
+  width: 850px;
+}
+
+.more {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  bottom: -1450px;
+  left: 610px;
+}
+.line {
+  position: absolute;
+  z-index: 100;
+  width: 100%; /* Adjust the width to your preference */
+  height: 2px; /* Set height to 1px for a thin line */
+  background-color: white; /* Set the color of the line */
+  bottom: -1450px;
+  left: 0;
+}
+
+.info {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  bottom: -1870px;
+  left: -550px;
 }
